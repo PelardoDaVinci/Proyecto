@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Ejemplo de media querys adaptado a tantos px -->
+    <style>
+        body{
+            background-color: darkorange;
+        }
+        @media only screen and (max-width: 600px){
+            Body {
+                background-color: aquamarine;
+            }
+        }
+     <!--sintaxisgeneral-->
+        @media (max-width: 600px) {
+            .facet_sidebar {
+                display: none;
+            }
+        }
+    </style>
+   <!-- Ejemplo para cada familia de resoluciones -->
+    <!-- Desktop -->
+        @media screen and (min-width: 1024px) (...)
+    <!-- Tablet -->
+        @media screen and (min-width: 768px) and (max-width: 1023px)
+    <!-- Smartphone -->
+        @media screen and (min-width: 767px) (...)
+</head>
+<body>
+    
+</body>
+</html>
